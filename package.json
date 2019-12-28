@@ -11,14 +11,19 @@
         "index.d.ts"
     ],
     "engines": {
-        "node": ">=8"
+        "node": ">=10"
     },
     "scripts": {
         "lint": "xo",
         "test": "yarn lint && ava"
     },
     "keywords": [],
-    "dependencies": {},
+    "dependencies": {
+        "dargs": "^7.0.0",
+        "for-range": "^1.0.0",
+        "merge-options": "^2.0.0",
+        "pegg": "^3.0.2"
+    },
     "devDependencies": {
         "ava": "^2.4.0",
         "eslint-config-richienb": "^0.2.3",
